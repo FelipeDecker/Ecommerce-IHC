@@ -1,0 +1,57 @@
+.top{
+    height: 100px;
+    background-color: red;
+}
+
+.main{
+    display: flex !important;
+    justify-content: center;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.resumo-carrinho {
+    border: 2px solid black;
+    width: 70%;
+}
+
+.carrinho {
+    border: 2px solid green;
+    /* height: 100px; */
+    width: 80%;
+}
+
+.carrinho .imagem img {
+    width: 100px;
+    height: 100px;
+}
+
+.lista-produtos tr {
+    /* border: 5px solid yellow !important; */
+    height: 150px;
+    /* padding: 200px; */
+}
+
+.lista-produtos .imagem {
+    border: 2px solid yellow !important;
+}
+
+.lista-produtos .informacoes-produto {
+    border: 2px solid yellow !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-produtos .final {
+    border: 2px solid yellow !important;
+}
+
+
+.resumo-compra {
+    border: 2px solid red;
+    width: 30%;
+}

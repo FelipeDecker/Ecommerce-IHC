@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./carrinho.css">
     <title>FLYKE</title>
 </head>
 <body>
-    <div class="main">
-        <div class="top">
-            <div class="menu-expansivo">
-                
-            </div>
-
-            <div class="logo">
-
-            </div>
-
-            <div class="Pesquisa">
-
-            </div>
-
-            <div class="acoes">
-
-            </div>
+    <div class="top">
+        <div class="menu-expansivo">
+            
         </div>
 
+        <div class="logo">
+
+        </div>
+
+        <div class="Pesquisa">
+
+        </div>
+
+        <div class="acoes">
+
+        </div>
+    </div>
+
+    <div class="main">
         <div class="resumo">
             <div class="resumo-carrinho">
                 <div class="titulo-carrinho">
@@ -33,11 +34,12 @@
                 </div>
 
                 <div class="carrinho">
-                    <table>
+                    <table class="lista-produtos">
                         <tr>
                             <td class="imagem">
                                 <img src="./imgs/tenis.png" alt="tenis">
                             </td>
+                            
                             <td class="informacoes-produto">
                                 <!-- <h3>Tenis flyke reddragon aura 2</h3> -->
                                 <p class="titulo">Tenis flyke reddragon aura 2</p>
@@ -48,6 +50,7 @@
                             <td class="final">
                                 <div class="remover-carrinho">
                                     <img src="#" alt=""> <!-- icone de lixo -->
+                                    <p>Imagem</p>
                                 </div>
 
                                 <div class="valores">
@@ -72,24 +75,27 @@
             </div>
 
             <div class="resumo-compra">
-                
                 <div class="dados-produto">
                     <div class="destino-entrega">
-                        <select name="" id="">
-                            
+                        <select name="" id="opcoes-entrega">
+                            <option value="1">Rua XXX</option>
+                            <option value="2">Rua YYY</option>
                         </select>
                     </div>
 
                     <div class="subtotal">
-
+                        <p>Subtotal</p>
+                        <p>R$ 2000.00</p>
                     </div>
 
                     <div class="taxa-entrega">
-
+                        <p>Taxa de entrega</p>
+                        <p>R$ 40.00</p>
                     </div>
 
                     <div class="valor-total">
-
+                        <p>Valor total</p>
+                        <p>2040.00</p>
                     </div>
                 </div>
 
