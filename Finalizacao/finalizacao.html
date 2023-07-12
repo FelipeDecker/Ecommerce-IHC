@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLYKE</title>
+    <link rel="stylesheet" href="finalizacao.css">
+    <link rel="icon" type="image/x-icon" href="img/icon-flyke.png">
+    <script src="https://kit.fontawesome.com/22af98477f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header>
+        <div class="nav">
+            <div class="nav-container">
+                <div class="icon-nav">
+                    <a href="#"><img src="img/bars.png" alt="Menu icon"></a>
+                </div>
+                <a href="../Home/home.html"><img src="img/logo-flyke.png" alt="Logo Flyke"></a>
+            </div>
+
+            <div class="nav-containter">
+                <form class="searchBar">
+                    <input type="search" placeholder="Search..." required>
+                </form>
+            </div>
+
+            <div class="nav-container">
+                <div class="icon-nav">
+                    <a href="../Carrinho/carrinho.html"><img src="img/shopping.png" alt="Shopping icon"></a>
+                </div>
+
+                <div class="icon-nav">
+                    <a href="#"><img src="img/heart.png" alt="Heart icon"></a>
+                </div>
+
+                <div class="icon-nav">
+                    <a href="#"><img src="img/profile.png" alt="Profile icon"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="securityBuy">
+            <p>Compra Segura</p>
+            <img src="img/verified.png" alt="Verified image">
+        </div>
+        <div class="containerMain">
+            <div class="title">
+                <p class="p1">Crie sua Conta</p>
+                <p>Já possui uma conta? <a href="#">Entrar</a></p>
+            </div>
+
+            <div class="titleForm">
+                <p>* Campos obrigatórios.</p>
+            </div>
+            <form class="form">
+
+                <input type="text" placeholder="* Nome" class="inputNomeSobrenome">
+                <input type="text" placeholder="* Sobrenome" class="inputNomeSobrenome">
+
+                <div class="gender">
+                    <p>* Sexo</p>
+                    <input type="radio" id="female" value="female" name="gender" class="inputGender">
+                    <label for="female">Feminino</label>
+
+                    <input type="radio" id="male" value="male" name="gender" class="inputGender">
+                    <label for="male">Masculino</label>
+                </div>
+
+                <input type="number" placeholder="* Dia" min="1" max="30" class="inputData">
+                <input type="number" placeholder="* Mês" min="1" max="12" class="inputData">
+                <input type="number" placeholder="* Ano" min="1" class="inputData">
+
+                <input type="text" placeholder="* CPF" class="inputLarge">
+                <input type="text" placeholder="* Seu telefone" class="inputLarge">
+                <input type="text" placeholder="* Outro telefone" class="inputLarge">
+
+                <input type="text" placeholder="* Seu CEP" class="inputHalf">
+                <input type="text" placeholder="* Tipo de endereço" class="inputHalf">
+
+                <input type="text" placeholder="* Nome da rua" class="inputLarge">
+
+                <input type="text" placeholder="* Número" class="inputHalf">
+                <input type="text" placeholder="* Complemento" class="inputHalf">
+                <input type="text" placeholder="* Bairro" class="inputHalf">
+                <input type="text" placeholder="* Ponto de referência" class="inputHalf">
+
+                <input type="text" placeholder="* Estado" class="inputLarge">
+                <input type="text" placeholder="* Cidade" class="inputLarge">
+
+                <button class="btn">PRONTO!</button>
+            </form>
+
+        </div>
+    </main>
 </body>
+
 </html>
