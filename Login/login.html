@@ -1,134 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
     <title>FLYKE</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="img/icon-flyke.png">
 </head>
 
 <body>
-
-    <div class="top">
-
+    <header>
         <div class="logo">
-            <img src="" alt="">
+            <a href="../Home/home.html"><img src="img/logo-flyke.png" alt="Logo Flyke"></a>
         </div>
 
-        <div class="compra-segura">
-
+        <div class="securityBuy">
             <p>Compra Segura</p>
-            <div class="imagem-compra-segura">
-                <i class="material-symbols-outlined">
-                    <verified_user></i>
-            </div>
+            <img src="img/verified.png" alt="Verified image">
         </div>
+    </header>
+    <main>
+        <form class="form">
+            <p>Já sou cliente</p>
+            <label for="login">E-mail</label>
+            <input type="email" placeholder="Informe seu e-mail">
 
-    </div>
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Informe sua senha">
+            <a href="#">Esqueci minha senha</a>
 
-    <div class="main">
+            <button class="btn">ACESSAR CONTA</button>
+        </form>
 
-        <div class="div-extra">
+        <div class="verticalBar"></div>
 
-        <div class="form">
+        <form class="form">
+            <p>Criar conta</p>
+            <label for="signin">E-mail</label>
+            <input type="email" placeholder="Insira um e-mail">
 
-            <div class="login">
-                <div class="cliente">
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Insira uma senha">
 
-                    <div class="jasoucliente">
-                        <h2>Já sou cliente</h2>
-                    </div>
+            <label for="password">Confirmar senha</label>
+            <input type="password" vale="password" placeholder="Confirme sua senha">
 
-                    <div class="email">
-                        <input type="text" placeholder="E-mail, CPF ou CNPJ">
-                    </div>
-
-                    <div class="senha">
-                        <input type="text" placeholder="Senha">
-                    </div>
-
-                    <div class="esquecisenha">
-                        <a href="Esqueci minha senha"></a>
-                    </div>
-
-                    <div class="acessar-conta">
-                        <button>ACESSAR CONTA</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="criar-conta">
-
-                <div class="criar-conta">
-                    <h2>Criar conta</h2>
-                </div>
-
-                <div class="informe-email">
-                    <input type="text" placeholder="Informe o seu e-mail">
-                </div>
-
-                <div class="insira-sua-senha">
-                    <input type="text" placeholder="Insira sua senha">
-                </div>
-
-                <div class="confirmar-senha">
-                    <input type="text" placeholder="Confirme sua senha">
-                </div>
-
-                <div class="acessarconta">
-                    <button>PRONTO</button>
-                </div>
-
-            </div>
-
+            <button class="btn">PRONTO!</button>
+        </form>
+        <div class="buttonFacebook">
+            <p>Acesse sua conta através de suas redes sociais</p>
+            <button><img src="img/facebook-icon.png">Conectar com Facebook</button>
         </div>
-
+    </main>
+    <footer>
+        <div class="doubt">
+            <p>Dúvidas? Ligue</p>
+            <a href="#">0800 696 6996</a>
         </div>
-
-        <div class="facebook">
-
-            <div class="criar-cont">
-                <p>Acesse sua conta através de suas redes sociais</p>
-            </div>
-
-            <div class="conectar-com-facebook">
-                <button>Conectar com Facebook</button>
-            </div>
-
+        <div class="buttonLanguage">
+            <button>PORTUGUÊS<img src="img/arrow.png"></button>
         </div>
-
-
-        <div class="rodape">
-
-            <div class="contato">
-                <div class="duvida">
-                    <a href="">Dúvidas? Ligue</a>
-                </div>
-
-                <div class="telefone">
-                    <a href="">0800 696 6996</a>
-                </div>
-            </div>
-
-            <div class="idioma">
-                <select name="idioma" id="">
-                    <option value="">Português</option>
-                </select>
-            </div>
-
-        </div>
-
-        <div class="idioma">
-
-        </div>
-
-    </div>
-
-
-
+    </footer>
 </body>
 
 </html>
