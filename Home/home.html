@@ -1,31 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLYKE</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-    <div class="main">
-        <header>
-            <div id="icone">
+    <header>
+        <div class="nav">
 
+            <div class="logo">
+                <div class="icon-nav hamburguer">
+                    <a href="#"><img src="images/bars.png" alt="Menu icon"></a>
+                </div>
+                <a id="logo" href="home.html"><img src="images/logo-flyke.png" alt="Logo Flyke"></a>
             </div>
-            <div id="barra-pesquisa">
-                <input type="text" id="texto-busca" placeholder="Pesquisar">
-                </input>
-                <img src="" id="btn-busca" alt="">
-            </div>
-            <a href="" id="carrinho"></a>
-            <a href="" id="favoritos"></a>
-            <a href="" id="perfil"></a>
-        </header>
-    </div>
 
+            <form action="" class="search-bar">
+                <input type="text" placeholder="Search...">
+            </form>
+
+            <div class="icons">
+
+                <div class="icon-nav">
+                    <a href="../Carrinho/carrinho.html"><img src="images/shopping.png" alt="Shopping icon"></a>
+                </div>
+
+                <div class="icon-nav">
+                    <a href="#"><img src="images/heart.png" alt="Heart icon"></a>
+                </div>
+
+                <div class="icon-nav">
+                    <a href="../Login/login.html"><img src="images/profile.png" alt="Profile icon"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section id="nav">
+        <nav>
+            <a href="">Novidades</a>
+            <a href="">Masculino</a>
+            <a href="">Feminino</a>
+            <a href="">Acessórios</a>
+        </nav>
+    </section>
+
+    <section id="slider">
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+
+
+                <div class="slide s1">
+                    <img src="images/image5.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="images/image2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/image3.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="images/image4.png" alt="">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+            </div>
+        </div>
+    </section>
+
+    <section id="options">
+        <a href="../Produto/produto.html">
+            <img class="img-options" src="images/image5.png" alt="">
+
+        </a>
+        <a href="../Produto/produto.html">
+            <img class="img-options" src="images/image2.png" alt="">
+
+        </a>
+        <a href="../Produto/produto.html">
+            <img class="img-options" src="images/image3.png" alt="">
+
+        </a>
+        <a href="../Produto/produto.html">
+            <img class="img-options" src="images/image4.png" alt="">
+
+        </a>
+
+    </section>
 </body>
 
 </html>
