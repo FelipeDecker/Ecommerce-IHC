@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./carrinho.css">
+    <link rel="icon" type="image/x-icon" href="../Home/images/icon-flyke.png">
     <title>FLYKE</title>
 </head>
+
 <body>
-    <div class="top">
-        <div class="menu-expansivo">
-            
-        </div>
-
+    <header>
         <div class="logo">
-
+            <a href="../Home/home.html"><img src="../Login/img/logo-flyke.png" alt="Logo Flyke"></a>
         </div>
 
-        <div class="Pesquisa">
-
+        <div class="securityBuy">
+            <p>Compra Segura</p>
+            <img src="../Login/img/verified.png" alt="Verified image">
         </div>
-
-        <div class="acoes">
-
-        </div>
-    </div>
+    </header>
 
     <div class="main">
         <div class="resumo">
@@ -39,7 +35,7 @@
                             <td class="imagem">
                                 <img src="./imgs/tenis.png" alt="tenis">
                             </td>
-                            
+
                             <td class="informacoes-produto">
                                 <!-- <h3>Tenis flyke reddragon aura 2</h3> -->
                                 <p class="titulo">Tenis flyke reddragon aura 2</p>
@@ -50,7 +46,7 @@
                             <td class="final">
                                 <div class="remover-carrinho">
                                     <img src="#" alt=""> <!-- icone de lixo -->
-                                    <p>Imagem</p>
+                                    <p>Remover</p>
                                 </div>
 
                                 <div class="valores">
@@ -58,12 +54,12 @@
                                         <div class="quantidade">
                                             <p>2</p>
                                         </div>
-    
+
                                         <div class="valor-unitario">
                                             <p>R$ 1000.00</p>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="valor-total">
                                         <p>R$ 2000.00</p>
                                     </div>
@@ -77,9 +73,9 @@
             <div class="resumo-compra">
                 <div class="dados-produto">
                     <div class="destino-entrega">
-                        <select name="" id="opcoes-entrega">
-                            <option value="1">Rua XXX</option>
-                            <option value="2">Rua YYY</option>
+                        <select name="Destino" id="opcoes-entrega">
+                            <option value="1">SC, Joinville, Rua Bom Retiro 176</option>
+                            <option value="2">SC, Joinville, Rua Governador Paulo Serra 552</option>
                         </select>
                     </div>
 
@@ -95,21 +91,26 @@
 
                     <div class="valor-total">
                         <p>Valor total</p>
-                        <p>2040.00</p>
+                        <p>R$ 2040.00</p>
                     </div>
                 </div>
 
                 <div class="botoes-acoes">
-                    <div class="finalizar-compra">
-                        <button id="finalizar">Finalizar compra</button>
+                    <div class="botoes finalizar-compra">
+                        <button id="finalizar">
+                            <a href="../Finalizacao/finalizacao.html">Finalizar compra</a>
+                        </button>
                     </div>
 
-                    <div class="continuar-comprando">
-                        <button id="continuar">Continuar comprando</button>
+                    <div class="botoes continuar-comprando">
+                        <button id="continuar" onclick="">
+                            <a href="../Home/home.html">Continuar comprando</a>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
