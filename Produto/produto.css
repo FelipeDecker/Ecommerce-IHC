@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECECEC;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #161D6F;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin-right: 6.5%;
+}
+
+.icon-nav {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.icon-nav img {
+    width: 25px;
+    height: 25px;
+}
+
+.searchBar input {
+    border: 1px solid #161D6F;
+    width: 50vw;
+    height: 1.5vw;
+    padding: 0.5%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px#686868;
+}
+
+#carouselExampleIndicators {
+    width: 650px;
+}
+
+.carrousel {
+    width: 40%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+}
+
+.titleDesc p:first-child {
+    font-size: 20px;
+}
+
+.titleDesc p:nth-child(2) {
+    font-size: 40px;
+    color: #CF0A0A;
+}
+
+.titleDesc p:last-child {
+    font-size: 17px;
+}
+
+.sizes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemSize {
+    padding: 1% 1.5% 1% 0;
+}
+
+.button-4 {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+.button-4:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+
+.button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+.button-4:focus {
+    outline: 1px transparent;
+}
+
+.button-4:before {
+    display: none;
+}
+
+.button-4:-webkit-details-marker {
+    display: none;
+}
+
+.colors {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.colors a {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.colors a div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.colorOne {
+    background-color: #FF0404;
+    border: solid 1px #000;
+}
+
+.colorTwo {
+    background-color: #030000;
+    border: solid 1px #000;
+}
+
+.colorThree {
+    background-color: #1400FF;
+    border: solid 1px #000;
+}
+
+.colorFour {
+    background-color: #FFFFFF;
+    border: solid 1px #000;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.btn {
+    margin-top: 3%;
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0 3px 2px #999;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    border: 1px solid #161D6F;
+    color: #161D6F;
+}
+
+.btn-2 {
+    border: 1px solid #B31312;
+    color: #B31312;
+}
+
+.btn.btn:active {
+    box-shadow: 0 3px 2px #666;
+    transform: translateY(2px);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    margin-right: 4%;
+}
+
+.right {
+    width: 26%;
+}
+
+.title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 25%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profileComments {
+    width: 600px;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    border-bottom: 2px solid #ccc;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.user p {
+    width: 80px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.stars img {
+    width: 28px;
+    height: 26px;
+}
+
+.stars p {
+    padding: 5px;
+    margin-top: 5px;
+}
